@@ -1,0 +1,176 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+body{
+  font-family: Helvetica, arial, sans-serif; /* Test for this*/
+  margin: 0;
+  padding: 0;
+  font-size: 16pt; /* test for this! Make all sizes em or rem */
+
+}
+a.skip{
+  background: white;
+  left: 0;
+  padding: 6px;
+  position: absolute;
+  top: -40px;
+  -webkit-transition: top 1s ease-out;
+  -o-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+}
+
+a.skip:focus{
+  position: relative;
+  top:0px;
+  color: black;
+  -webkit-text-decoration-style: solid;
+          text-decoration-style: solid;
+}
+*:focus{
+  border: 2px solid black;
+}
+
+.dropbtn{
+  font-size: 16px;
+  border: none;
+  position: relative;
+  display: inline-block;
+  top: 20px;
+  left: 80%;
+
+}
+.dropdown{
+  position: relative;
+  display: inline-block;
+  top: 0px;
+  width: 100vh;
+
+}
+.nav_links{
+/*  display: none;*/
+  
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+  position: absolute;
+  width: 100vh;
+  top: -190px;
+  text-align: center;
+  line-height: 1.5;
+}
+.nav_links a:visited{
+  color: black;
+}
+.nav_links a:active{
+  color: red;
+}
+
+/*.nav_links a {
+  position: relative;
+  top:0px;
+  color: black;
+  display: block;
+}*/
+.nav_links a:hover{
+  color: purple;
+}
+.show {
+  display: block;
+position: relative;
+  top: 0;}
+
+.bio {
+  font-size: 14pt;
+  width: 65%;
+  margin: auto;
+  padding: 0 0 30px 0;
+  
+
+}
+.photoCredit {
+  font-size: 10pt;
+  
+}
+
+#authorPic{
+display: block;
+padding: 10px;
+margin: auto;
+width: 60%;
+
+}
+#page_container{
+  position: absolute;
+  min-height: 100vh; /*https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/*/
+}
+
+
+h1{
+  font-size: 1.5em;
+  text-align: left;
+  padding-left: 50px;
+  line-height: 2;
+}
+
+h2{
+  font-size: 1.5em;
+  text-align: center;
+  padding: 5px;
+}
+
+p {
+  padding: 0 30px;
+}
+
+
+
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  max-height: 2.5rem;
+  font-size: .5em;
+  background-color: black;
+  color: white;
+  padding: 2px;
+  text-align: center;
+}
+
+
+
+
+
+@media screen and (min-width: 850px){
+
+  /* Navbar */
+
+  header{
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+
+    
+  }
+
+
+  .nav_links{
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+
+    
+  }
+
+  .nav_item a{
+    padding: 10px;
+  }
+
+  #authorPic{
+  max-width: 400px;
+  float: left;
+
+}
+}
+
