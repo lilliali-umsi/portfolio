@@ -449,7 +449,6 @@ button.left_button, button.right_button{
 }
 #page_container{
   position: absolute;
-  max-width: 100vh;
   min-height: 100vh; /*https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/*/
 }
 
