@@ -453,6 +453,7 @@ button.left_button, button.right_button{
 }
 
 }
+
 @media screen and (min-width: 850px){
 
 
@@ -490,8 +491,8 @@ display: flex;
   display: grid;
   -ms-grid-columns: 50% 50%;
   grid-template-columns: 50% 50%;
-  -ms-grid-rows: 70% 30%;
-  grid-template-rows: 70% 30%;
+/*  -ms-grid-rows: 70% 30%;
+  grid-template-rows: 70% 30%;*/
 }
 
 #contact_skip > *:nth-child(1){
