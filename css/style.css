@@ -103,7 +103,7 @@ max-height: 90vh;
 width: auto;
 }
 #page_container{
-  position: absolute;
+  position: relative;
   min-height: 100vh; /*https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/*/
 }
 
