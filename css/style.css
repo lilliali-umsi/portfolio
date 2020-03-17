@@ -704,7 +704,7 @@ h1{
 .social{
   padding-left: 30px;
   position: fixed;
-  bottom: 280px;
+  top: 280px;
   z-index: 1;
   font-size: .8em;
 }
