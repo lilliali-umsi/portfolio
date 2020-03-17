@@ -1,30 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6JWBLP1M8D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6JWBLP1M8D');
+</script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="images/logo_icon.png"/>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-   
-    <title>Contact </title>
+    <script src = "js/portfolio.js"></script>
+    <title>NUMBER ONE CHINESE RESTAURANT </title>
   </head>
   <body>
-   
+         <a class = "contact_skip" href="#contact_skip">Skip to Main Content</a>
+  <div id = "page_container">
+    <div id ="content-wrap">
+
     <header>
-  
-      <nav>
-        <ul class="nav_links">
-          <li class="nav_item"> <a href = "index.html"> Home</a></li>
-          <li class="nav_item"> <a href = "other.html"> Other Writing</a>
-          <li class="nav_item"> <a href = "about.html"> About</a></li>
-          <li class="nav_item"> <a href = "contact.html"> Contact</a></li>
-           <li class="nav_item"> <a href = "blog.html"> Blog</a></li>
+    
+        
+         <nav class ="dropdown">
+        <ul class="nav_links" id="myDropdown">
+          <li class="nav_item"> <a href = "index.html" onfocus="myFunction()"> NUMBER ONE CHINESE RESTAURANT</a></li>
+          <li class="nav_item"> <a href = "other.html"> other writing</a>
+          <li class="nav_item"> <a href = "about.html"> about</a></li>
+          <li class="current_page"> <a href = "contact.html"> contact</a></li>
+
         </ul>
     </nav>
   </header>
-  <main> 
+  <button onclick="myFunction()" button onfocus="myFunction()" class="dropbtn">Menu</button>
+     <aside>
+      <h1> lillian li, contact </h1>
+      <div class ="social">
+        <a href="https://www.facebook.com/lillian.li.31" aria-label="facebook link" target="_blank"class="fa fa-facebook"></a>
+        <a href="https://twitter.com/ZillianZi" aria-label="twitter link" target="_blank" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com/zillianzi/" aria-label="instagram link"target="_blank" class="fa fa-instagram"></a>
+      </div>
+    </aside>
+  <main class="about" id = "contact_skip">
+
+    <div class="slideshow">
+  <img class="mySlides" onload="carousel()"  src="images/stack.png" alt="stack of books">
+  <img class="mySlides" src="images/dog.jpeg" alt="dog with book">
+  <img class="mySlides" src="images/cat.jpeg" alt="cat with book">
+  <img class="mySlides" src="images/lucy.png" alt="girl with book">
+  <img class="mySlides" src="images/ferret.jpeg" alt="ferret with book">
+  <img class="mySlides" src="images/twins.jpeg" alt="twins with book">
+  <img class="mySlides" src="images/doodle.jpg" alt="goldendoodle with book">
+  <img class="mySlides" src="images/literati.jpeg" alt="two girls with book">
+   <img class="mySlides" src="images/cat2.jpeg" alt="another cat with book">
+   <button onclick= "mail()" class="contactbtn">Send Your Own Photo With the Book!</button>
+</div>
+
+   <div class="slideshow2" >
+  <img class="mySlides2" onload ="showDivs(slideIndex)"  src="images/stack.png" alt="stack of books">
+  <img class="mySlides2" src="images/dog.jpeg" alt="dog with book">
+  <img class="mySlides2" src="images/cat.jpeg" alt="cat with book">
+  <img class="mySlides2" src="images/lucy.png" alt="girl with book">
+  <img class="mySlides2" src="images/ferret.jpeg" alt="ferret with book">
+  <img class="mySlides2" src="images/twins.jpeg" alt="twins with book">
+  <img class="mySlides2" src="images/doodle.jpg" alt="goldendoodle with book">
+  <img class="mySlides2" src="images/literati.jpeg" alt="two girls with book">
+   <img class="mySlides2"  src="images/cat2.jpeg" alt="another cat with book">
+<button class="left_button" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="right_button" onclick="plusDivs(1)">&#10095;</button>
+<button onclick= "mail()" class="contactbtn">Send Your Own Photo With the Book!</button>
+</div>
+
+<div class="contact">
+<h2>contact</h2><br>
+
+  <p>my email: lillianliauthor@gmail.com</p><br><br>
+
+<p>publicity: carolyn.okeefe@hholt.com</p><br><br>
+
+<p>literary: adam@cheneyagency.com</p><br><br>
+
+<p>tv: jiah.shin@caa.com</p><br><br>
+
+<p>speaking: elaine@emtagency.net</p><br><br> 
+</div>
+<form action="https://formspree.io/myypegjk" method="POST">
+<fieldset>
+   <legend>newsletter mailing list</legend>
+   <div class = "newsletter">
+    <div id="name_category">
+    <p> name* </p><br>
+      <input type="text" id ="first" name="fname" aria-label="firstName"placeholder ="First Name"/> 
+      <input type="text" id ="last" name="lname" aria-label="lastName" placeholder="Last Name"/>
+      </div> 
+      <div id="email_category">
+    <p> email*</p><br>
+    
+      <input type="email" id="email" name ="email" aria-label="email"placeholder="Email address" />
+     </div> 
+   </div>
+    <div class="submit">
+      <input type="submit" id="submit" value ="Submit" />
+  
+      </div>
+   </fieldset>
+   </form>
   </main>
 
     <footer>

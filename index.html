@@ -1,30 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6JWBLP1M8D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6JWBLP1M8D');
+</script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="images/logo_icon.png"/>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-   
-    <title>Home </title>
+    <script src = "js/portfolio.js"></script>
+    <title>NUMBER ONE CHINESE RESTAURANT </title>
   </head>
   <body>
-   
+         <a class = "skip" href="#skip">Skip to Main Content</a>
+  <div id = "page_container">
+    <div id ="content-wrap">
+
     <header>
   
-      <nav>
-        <ul class="nav_links">
-          <li class="nav_item"> <a href = "index.html"> Home</a></li>
-          <li class="nav_item"> <a href = "other.html"> Other Writing</a>
-          <li class="nav_item"> <a href = "about.html"> About</a></li>
-          <li class="nav_item"> <a href = "contact.html"> Contact</a></li>
-           <li class="nav_item"> <a href = "blog.html"> Blog</a></li>
+     
+        
+         <nav class ="dropdown">
+        <ul class="nav_links" id="myDropdown">
+          <li class="current_page"> <a href = "index.html" onfocus="myFunction()"> NUMBER ONE CHINESE RESTAURANT</a></li>
+          <li class="nav_item"> <a href = "other.html"> other writing</a>
+          <li class="nav_item"> <a href = "about.html"> about</a></li>
+          <li class="nav_item"> <a href = "contact.html"> contact</a></li>
         </ul>
     </nav>
   </header>
-  <main> 
+  <button onclick="myFunction()" class="dropbtn">Menu</button>
+  <aside>
+      <h1> lillian li, author </h1>
+      <div class ="social">
+        <a href="https://www.facebook.com/lillian.li.31" aria-label="facebook link" target="_blank"class="fa fa-facebook"></a>
+        <a href="https://twitter.com/ZillianZi" aria-label="twitter link" target="_blank" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com/zillianzi/" aria-label="instagram link"target="_blank" class="fa fa-instagram"></a>
+      </div>
+    </aside>
+  <main class="about" id = "skip">
+  <div class="homepage">
+    <div class="book_copy">
+  
+    <div class = "book_copy_head">
+      <hr width="70%">
+     <p id="npr"><strong><span class ="green">An</span> <span class="orange"> NPR Best Book</span><span class ="green"> of 2018</span> <br><br></p>
+       <p><span class ="green">Finalist for</span> <span class="orange">The Women's Prize</span> <span class ="green">and</span> <span class="orange">The Center for Fiction's </span><span class ="green">First Novel Prize</span></p><br>
+
+     <p><span class ="green">A Most Anticipated Book of 2018 by </span><span class="orange">The Millions, Bitch Media, </span> <span class ="green">and </span><span class="orange">Cosmopolitan</span></strong></p> <hr width="70%">
+    </div>
+    <div class = "book_copy_body">
+      <p><strong>An exuberant and wise multigenerational debut novel about the complicated lives and loves of people working in everyone’s favorite Chinese restaurant.</strong> <br><br>
+
+      The Beijing Duck House in Rockville, Maryland, is not only a beloved go-to setting for hunger pangs and celebrations; it is its own world, inhabited by waiters and kitchen staff who have been fighting, loving, and aging within its walls for decades. When disaster strikes, this working family’s controlled chaos is set loose, forcing each character to confront the conflicts that fast-paced restaurant life has kept at bay. <br><br>
+
+      Generous in spirit, unaffected in its intelligence, multi-voiced, poignant, and darkly funny, Number One Chinese Restaurant looks beyond red tablecloths and silkscreen murals to share an unforgettable story about youth and aging, parents and children, and all the ways that our families destroy us while also keeping us grounded and alive. </p><br><hr width="70%"><br>
+    </div>
+
+    
+
+  </div>
+
+
+    <img src="images/book_cover.png" alt="bookcover" id = "bookcover">
+
+    <div class ="buy">
+      <form action="https://www.indiebound.org/book/9781250229328" method="get" target="_blank">
+         <button class="indie"><img src="images/indiebound.png" alt="indiebound logo"></button></form>     
+      <form action="https://www.amazon.com/Number-One-Chinese-Restaurant-Novel/dp/1250229324/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=" method="get" target="_blank">
+         <button class="amazon"><img src="images/amazon.png" alt="amazon logo"></button></form>
+      <form action="https://www.barnesandnoble.com/w/number-one-chinese-restaurant-lillian-li/1126792633?ean=9781250229328#/" method="get" target="_blank">
+         <button class="bn"><img src="images/bn.png" alt="barnes and noble logo"></button></form>
+
+      <form action="https://books.apple.com/us/book/number-one-chinese-restaurant/id1297331333?mt=11&ign-mpt=uo%3D4" method="get" target="_blank">
+         <button class="ibooks"><img src="images/ibooks.png" alt="apple books logo"></button></form>
+
+</div>
+</div>
   </main>
 
     <footer>
