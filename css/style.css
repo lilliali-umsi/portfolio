@@ -199,7 +199,7 @@ padding: 0 100px 50px 100px;
   opacity: .7;
 }
 
-.mySlides, .mySlides2{
+.mySlides{
   padding: 50px 0 0 0;
   height:60vh;
   width: 60vh;
@@ -979,6 +979,14 @@ position: absolute;
   display: inline-block;
   margin: auto;
   padding-bottom: 20px;
+ /* margin: auto;
+  padding-bottom: 20px;*/
+
+}
+#dog{
+  height:60vh;
+  width: 60vh;
+  padding: 50px 0 0 0;
 }
 
 button.left_button, button.right_button{
