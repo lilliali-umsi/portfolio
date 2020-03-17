@@ -447,6 +447,11 @@ button.left_button, button.right_button{
   left: 7%;
 
 }
+#page_container{
+  position: absolute;
+  min-height: 100vh; /*https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/*/
+}
+
 }
 @media screen and (min-width: 850px){
 
