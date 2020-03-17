@@ -1,5 +1,7 @@
 /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
 
+
+
 body{
   font-family: Helvetica, arial, sans-serif; /* Test for this*/
   margin: 0;
@@ -101,7 +103,7 @@ max-height: 90vh;
 width: auto;
 }
 #page_container{
-  position: relative;
+  position: absolute;
   min-height: 100vh; /*https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/*/
 }
 
@@ -554,6 +556,16 @@ p.quote{
 */
 
 
+}
+
+@media screen and (max-width: 500px){
+.nav_links{
+/*  display: none;*/
+  
+ 
+  text-align: left;
+
+}
 }
 
 @media screen and (min-width: 1024px){
