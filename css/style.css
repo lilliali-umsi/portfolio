@@ -276,7 +276,7 @@ input#first, input#last, input#email{
   margin-bottom: 5%;
 }
 input#submit{
-  font-size: 3em;
+  font-size: 1em;
 }
 input#submit:focus{
   font-size: 1em;
