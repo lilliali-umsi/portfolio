@@ -191,7 +191,7 @@ padding: 0 100px 50px 100px;
   display: block;
   margin:auto;
   border: none;
-  padding-bottom: 20px;
+  background-color: white;
 }
 .amazon:hover, .bn:hover, .indie:hover, .ibooks:hover{
   opacity: .7;
