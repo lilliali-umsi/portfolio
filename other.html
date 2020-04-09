@@ -10,14 +10,16 @@
 
   gtag('config', 'UA-160851975-1');
 </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="dist/css/lightbox.css" rel="stylesheet"/>
     <link rel="shortcut icon" type="image/png" href="images/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src = "js/portfolio.js"></script>
-    <title>Other Writing </title>
+    <title>Other Writing</title>
   </head>
   <body>
          <a class = "other_skip" href="#other_skip">Skip to Main Content</a>
@@ -83,10 +85,23 @@
   </ul>
 
 </div>
+<div class="controls">
+<button type="button" data-filter="all">All</button>
+	<button type="button" data-filter=".fiction">Fiction</button>
+	<button type="button" data-filter=".nonfiction">Non-Fiction</button>
+	<button type="button" data-filter=".craft">Craft</button>
+	<button type="button" data-sort="order:asc">Ascending</button>
+	<button type="button" data-sort="order:descending">Descending</button>
+	<button type="button" data-sort="random">Random</button> 
+</div>
+
+<div class="container">
     <div class="flip-card" id="granta" tabindex="0">
   <div class="flip-card-inner" id="granta_inner">
     <div class="flip-card-front" id="granta_front">
+    	<a href="images/granta.png" data-lightbox="gallery" data-title="Granta Illustration" data-alt = "" class = "mix fiction">
       <img src="images/granta.png" alt="" class ="writing_image">
+  		</a>
     </div>
     <div class="flip-card-back" id="granta_back">
       <h3>Granta</h3><br>
@@ -98,7 +113,9 @@
   <div class="flip-card" id="guernica" tabindex="0">
     <div class="flip-card-inner" id="guernica_inner">
     <div class="flip-card-front" id="guernica_front">
+    	<a href="images/guernica.png" data-lightbox="gallery" data-title="Guernica Illustration" data-alt = "" class = "mix fiction">
       <img src="images/guernica.png" alt="" class="writing_image">
+  </a>
     </div>
     <div class="flip-card-back" id="guernica_back">
       <h3>Guernica</h3> <br>
@@ -110,7 +127,9 @@
  <div class="flip-card" id="one" tabindex="0">
   <div class="flip-card-inner" id="one_inner">
     <div class="flip-card-front" id="one_front">
+    	<a href="images/one.png" data-lightbox="gallery" data-title="One Story Illustration" data-alt = "" class = "mix fiction">
       <img src="images/one.png" alt="" class ="writing_image">
+  </a>
     </div>
     <div class="flip-card-back" id="one_back">
       <h3>One Story</h3><br>
@@ -123,7 +142,9 @@
  <div class="flip-card" id="dc" tabindex="0">
     <div class="flip-card-inner" id="dc_inner">
     <div class="flip-card-front" id="dc_front">
+    	<a href="images/dc.png" data-lightbox="gallery" data-title="Travel and Leisure Illustration" data-alt = "" class = "mix nonfiction">
       <img src="images/dc.png" alt=""  class="writing_image">
+  </a>
     </div>
     <div class="flip-card-back" id="dc_back">
       <h3>Travel &amp; Leisure</h3> <br>
@@ -135,7 +156,9 @@
  <div class="flip-card" id="bon" tabindex="0">
   <div class="flip-card-inner" id="bon_inner">
     <div class="flip-card-front" id="bon_front">
+    	<a href="images/bonappetit.png" data-lightbox="gallery" data-title="Bon Appetit Illustration" data-alt = "" class ="mix nonfiction">
       <img src="images/bonappetit.png" alt="" class ="writing_image">
+  </a>
     </div>
     <div class="flip-card-back" id="bon_back">
       <h3>Bon Appetit</h3><br>
@@ -147,7 +170,9 @@
  <div class="flip-card" id="ny" tabindex="0">
   <div class="flip-card-inner" id="ny_inner">
     <div class="flip-card-front" id="ny_front">
+    	<a href="images/nytimes.png" data-lightbox="gallery" data-title="New York Times Illustration" data-alt = "" class ="mix nonfiction">
       <img src="images/nytimes.png" alt="" class ="writing_image">
+  </a>
     </div>
     <div class="flip-card-back" id="ny_back">
       <h3>New York Times</h3><br>
@@ -159,7 +184,9 @@
 <div class="flip-card" id="mqr" tabindex="0">
   <div class="flip-card-inner" id="mqr_inner">
    <div class="flip-card-front" id="mqr_front">
+   	<a href="images/mqr.png" data-lightbox="gallery" data-title="Michigan Quarterly Review Illustration" data-alt = "" class ="mix craft">
       <img src="images/mqr.png" alt="" class ="writing_image">
+  </a>
     </div>
     <div class="flip-card-back" id="mqr_back">
       <h3>Michigan Quarterly Review</h3><br>
@@ -172,7 +199,9 @@
 <div class="flip-card" id="glimmer" tabindex="0">
   <div class="flip-card-inner" id="glimmer_inner">
    <div class="flip-card-front" id="glimmer_front">
+   	<a href="images/glimmer.png" data-lightbox="gallery" data-title="Glimmer Train Illustration" data-alt = "" class ="mix craft">
       <img src="images/glimmer.png" alt="" class ="writing_image">
+  </a>
     </div>
     <div class="flip-card-back" id="glimmer_back">
       <h3>Glimmer Train</h3><br>
@@ -185,7 +214,9 @@
 <div class="flip-card" id="fwr" tabindex="0">
   <div class="flip-card-inner" id="fwr_inner">
    <div class="flip-card-front" id="fwr_front">
+   	<a href="images/fwrlogo.png" data-lightbox="gallery" data-title="Fiction Writers Review Illustration" data-alt = "" class ="mix craft">
       <img src="images/fwrlogo.png" alt="" class ="writing_image">
+  </a>
     </div>
     <div class="flip-card-back" id="fwr_back">
       <h3>Fiction Writers Review</h3><br>
@@ -194,7 +225,8 @@
     </div>
   </div>
 </div>
-
+    </div>  
+  
 
   </main>
 </div>
@@ -205,5 +237,11 @@
     </footer>
 
 </div>
+<script src="dist/js/lightbox.js"></script>
+<script src="dist/js/mixitup.min.js"></script>
+	<script>
+            var containerEl = document.querySelector('.container');
+            var mixer = mixitup(containerEl);
+    </script>
   </body>
 </html>
